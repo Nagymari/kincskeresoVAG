@@ -9,7 +9,7 @@ from .apps.tasks.models import ClassProfile
 def index(request: HttpRequest) -> HttpResponse:
     """Main Page"""
 
-    return render(request=request, template_name="index.html")
+    return render(request=request, template_name="templates/index.html")
 
 
 @need_login
